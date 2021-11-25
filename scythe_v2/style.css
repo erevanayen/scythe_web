@@ -37,6 +37,11 @@ body {
   color: #fff300;
 }
 
+.go-back {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
 #logo {
   background-image: url("./scythe_logo_est_color.svg");
   background-size: 100% 100%;
