@@ -1,20 +1,36 @@
 console.log("I am running");
+var offset = "0.3";
 
-var themeToggle = false;
+var themeToggle = true;
 
 const logoEl = document.getElementById("logo");
+const shadowEl = document.getElementById("logo_shadow");
 
-logoEl.addEventListener("click", changeTheme);
+logoEl.addEventListener("click", slideElements);
 
-function changeTheme() {
+function slideElements() {
   if (themeToggle) {
-    // White logo
-    logoEl.style.backgroundImage = `url("./scythe_v2/scythe_logo_est_color_2.svg")`;
+    // Slide top
+    logoEl.style.top = `-${offset}vw`;
+    shadowEl.style.top = `${offset}vw`;
+    // Slide left
+    logoEl.style.left = `-${offset}vw`;
+    shadowEl.style.left = `${offset}vw`;
   } else {
-    // Color logo
-    logoEl.style.backgroundImage = `url("./scythe_v2/scythe_logo_est_color.svg")`;
+    // Slide top
+    logoEl.style.top = `0vw`;
+    shadowEl.style.top = `0vw`;
+    // Slide left
+    logoEl.style.left = `0vw`;
+    shadowEl.style.left = `0vw`;
   }
   themeToggle = !themeToggle;
 }
 
-changeTheme();
+function introAnim() {
+  setTimeout(function () {
+    slideElements();
+  }, 500);
+}
+
+introAnim();
