@@ -1,0 +1,12 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  overflow: hidden;
+}
+.logo {
+  filter: invert();
+  width: 40%;
+}
