@@ -2,11 +2,15 @@ console.log("I am running");
 var offset = "0.3";
 
 var themeToggle = true;
+var hideToggle = true;
+var counter = 0;
+var limit = 5;
 
 const logoEl = document.getElementById("logo");
 const shadowEl = document.getElementById("logo_shadow");
+const hiddenEl = document.getElementById("hidden");
 
-logoEl.addEventListener("click", slideElements);
+logoEl.addEventListener("click", logoClick);
 
 function slideElements() {
   if (themeToggle) {
@@ -25,6 +29,18 @@ function slideElements() {
     shadowEl.style.left = `0vw`;
   }
   themeToggle = !themeToggle;
+}
+
+function logoClick() {
+  if (hideToggle) {
+    if (counter >= limit) {
+      hiddenEl.style.color = `#EE00FF`;
+      hideToggle = false;
+    } else {
+      counter += 1;
+    }
+  }
+  slideElements();
 }
 
 function introAnim() {
