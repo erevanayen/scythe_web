@@ -22,6 +22,21 @@ body {
   transition: color 1s;
 }
 
+.pink-text {
+  font-family: "Roboto", sans-serif;
+  color: #ee00ff;
+}
+
+.blue-text {
+  font-family: "Roboto", sans-serif;
+  color: #00f0e1;
+}
+
+.yellow-text {
+  font-family: "Roboto", sans-serif;
+  color: #fff300;
+}
+
 #logo {
   background-image: url("./scythe_logo_est_color.svg");
   background-size: 100% 100%;
