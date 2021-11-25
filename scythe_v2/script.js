@@ -9,8 +9,9 @@ var limit = 5;
 const logoEl = document.getElementById("logo");
 const shadowEl = document.getElementById("logo_shadow");
 const hiddenEl = document.getElementById("hidden");
+const triggerEl = document.getElementById("trigger");
 
-logoEl.addEventListener("click", logoClick);
+triggerEl.addEventListener("click", logoClick);
 
 function slideElements() {
   if (themeToggle) {
