@@ -10,7 +10,6 @@ body {
 #logo {
   background-image: url("./scythe_logo_est.svg");
   background-size: 100% 100%;
-  filter: invert();
   width: 966px;
   height: 300px;
 }
