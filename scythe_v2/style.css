@@ -9,12 +9,16 @@ body {
 
 .all-content {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo-container {
   position: relative;
   width: 100%;
   height: 300px;
+  max-width: 600px;
 }
 
 .see-me {
@@ -67,9 +71,12 @@ body {
 }
 
 .socials {
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
+  max-width: 450px;
+  min-width: 200px;
 }
 
 .social-icon {
@@ -87,6 +94,7 @@ body {
 }
 
 .news {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
