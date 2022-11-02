@@ -1,16 +1,14 @@
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: black;
-  overflow: hidden;
   font-family: "Roboto", sans-serif;
 }
 
 .all-content {
-  width: 40%;
+  width: 50%;
 }
 
 .logo-container {
@@ -40,19 +38,6 @@ body {
 
 .go-back {
   color: white;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-left: 1.5rem;
-}
-
-.text-container > * {
-  font-size: 1rem;
-  font-weight: bold;
 }
 
 #logo {
@@ -101,7 +86,41 @@ body {
   background-image: url("./assets/yt_tricolor.svg");
 }
 
-@media only screen and (max-width: 800px) {
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1rem;
+}
+
+.news-block {
+  border: 1px solid;
+  padding: 0px 1rem 0px 1rem;
+  width: 80%;
+  max-width: 450px;
+  min-width: 200px;
+}
+
+.news-block h2 {
+  font-size: 1rem;
+  border-bottom: 0.8px dashed;
+}
+
+.news-block:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.news-block span {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding-bottom: 10%;
+  }
+
   .all-content {
     width: 80%;
   }
