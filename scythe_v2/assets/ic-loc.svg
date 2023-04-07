@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-6425,-1372)">
+        <g id="Icon-Export" serif:id="Icon Export" transform="matrix(1,0,0,1,-0.634366,-0.453224)">
+            <rect x="6425.63" y="1372.45" width="30" height="30" style="fill:none;"/>
+            <g id="ic-loc" transform="matrix(1,0,0,2.56255,5479.86,732.56)">
+                <g transform="matrix(1,0,0,0.390236,-5479.23,-285.695)">
+                    <path d="M6440,1372.69C6446.45,1372.69 6451.69,1377.93 6451.69,1384.38C6451.69,1390.83 6440.03,1402 6440.03,1402C6440.03,1402 6428.31,1390.83 6428.31,1384.38C6428.31,1377.93 6433.55,1372.69 6440,1372.69ZM6440,1376.71C6444.26,1376.71 6447.72,1380.17 6447.72,1384.43C6447.72,1388.7 6440.02,1396.07 6440.02,1396.07C6440.02,1396.07 6432.28,1388.7 6432.28,1384.43C6432.28,1380.17 6435.74,1376.71 6440,1376.71Z" style="fill:rgb(238,0,255);"/>
+                </g>
+                <g transform="matrix(0.65822,0,0,0.256861,-1414.85,-311.921)">
+                    <circle cx="3609.17" cy="2206.02" r="3.806" style="fill:rgb(238,0,255);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

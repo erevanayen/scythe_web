@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+:root {
+  --col-phlox: #ee00ff;
+  --col-canary: #fff300;
+  --col-cornsilk: #fff3cf;
+  --col-cyan: #00f0e1;
+  --col-black: #1d1d1d;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--col-black);
+  overflow-x: hidden;
+}
+section {
+  padding: 0 32px;
+}
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--col-black);
+  color: var(--col-cornsilk);
+  z-index: 5;
+  box-sizing: border-box;
+  padding: 16px 32px;
+}
+footer a {
+  color: #ee00ff;
+}
+#background {
+  position: fixed;
+  height: 100svh;
+  width: 100vw;
+  background-image: url(./assets/bg_top.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: 0;
+}
+#sec-one {
+  z-index: 2;
+}
+#pink-bg {
+  position: relative;
+  z-index: 10;
+  background-image: url(./assets/bg_pink.png);
+  background-position: top center;
+  background-size: cover;
+}
+#trees {
+  position: relative;
+  padding: 0;
+  margin-top: -50svh;
+  pointer-events: none;
+  z-index: 10;
+  box-sizing: border-box;
+}
+#trees img {
+  height: 100%;
+  position: relative;
+  bottom: -10px;
+}
+.text-section {
+  position: relative;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  box-sizing: border-box;
+  padding-bottom: 32px;
+}
+.text-section > div {
+  width: 60%;
+  color: var(--col-cornsilk);
+}
+.text-section > div > h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.text-section > div > div > p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+.text-section > div > div > p > span {
+  font-weight: 900;
+}
+.info-par {
+  margin-top: 1rem;
+}
+.info-par h2 {
+  margin-bottom: 0.5rem;
+}
+.info-par p {
+  padding-left: 2ch;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.info-par a {
+  color: var(--col-cyan);
+  padding-left: 2ch;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-decoration: none;
+}
+#logo-main {
+  position: relative;
+  width: clamp(300px, 50vw, 800px);
+  z-index: 5;
+}
+#track {
+  position: relative;
+  height: 80svh;
+  margin-top: -10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#track > img {
+  position: absolute;
+  object-fit: contain;
+  max-height: 100%;
+  opacity: 0.5;
+}
+#track > div {
+  filter: drop-shadow(0 0 2px var(--col-black));
+}
+#track #main-text {
+  position: relative;
+  margin-top: clamp(120px, 15%, 150px);
+  padding-left: 20%;
+  color: var(--col-cornsilk);
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 2.7rem;
+  font-weight: 900;
+}
+#track #main-text > p {
+  margin: 0;
+}
+#track #main-text > p:nth-child(1) {
+  margin-left: 3ch;
+}
+#track #main-text > p:nth-child(2) {
+  margin-left: 1.5ch;
+}
+#track #dates {
+  position: relative;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--col-cornsilk);
+}
+#track #dates > p {
+  margin: 0;
+}
+#track #links {
+  position: relative;
+  margin-top: 1rem;
+  display: flex;
+}
+#track #links > a {
+  color: var(--col-cornsilk);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: 1rem;
+  display: flex;
+}
+#track #links > a img {
+  height: 1.5rem;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
+#track #links > a:nth-child(1):hover {
+  color: var(--col-cyan);
+}
+#track #links > a:nth-child(2):hover {
+  color: var(--col-phlox);
+}
+#rego {
+  position: relative;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--col-cornsilk);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#rego:hover {
+  color: var(--col-phlox);
+  cursor: pointer;
+}
+#rego p {
+  margin: 0;
+}
+#rego p:first-child {
+  text-transform: uppercase;
+}
+#rego p:nth-child(2) {
+  letter-spacing: 0.25ch;
+}
+@media only screen and (max-width: 900px) {
+  :root {
+    font-size: 10px;
+  }
+  section {
+    padding: 0 16px;
+  }
+  #sec-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100svh;
+  }
+  #sec-one #track {
+    margin-top: 0;
+    height: auto;
+    width: 100%;
+  }
+  #sec-one #track #main-text {
+    margin-top: clamp(0px, 15%, 150px);
+  }
+  #sec-one #track #dates {
+    margin-top: 4rem;
+  }
+  #sec-one #track #dates #links {
+    margin-top: 6rem;
+  }
+  .text-section > div {
+    width: 75%;
+  }
+}
