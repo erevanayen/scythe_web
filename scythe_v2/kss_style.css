@@ -98,6 +98,7 @@ footer a {
 }
 .text-section > div > div > p > span {
   font-weight: 900;
+  color: var(--col-phlox);
 }
 .info-par {
   margin-top: 1rem;
