@@ -238,6 +238,15 @@ footer a {
 #rego p:nth-child(2) {
   letter-spacing: 0.25ch;
 }
+
+#rego div {
+  height: 2em;
+  background-image: url(./assets/goout_Logo-White.svg);
+  aspect-ratio: 333/168;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 @media only screen and (max-width: 900px) {
   :root {
     font-size: 10px;
