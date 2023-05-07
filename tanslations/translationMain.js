@@ -2,143 +2,171 @@ export const translations = {
   AYO: {
     en: "Ayo!",
     cs: "Čus!",
+    pl: "Cześć!",
     sk: "Čau!",
   },
   BASIC_HEAD: {
     en: "Basic info",
     cs: "Základní informace",
+    pl: "Podstawowe informacje",
     sk: "Základné informácie",
   },
   DATE: {
     en: "10.-11. June",
     cs: "10.-11. Června",
+    pl: "10.-11. Czerwca",
     sk: "10.-11. Júna",
   },
   DESIGNED: {
     en: "Designed and implemented by",
     cs: "Návrh a implementace",
+    pl: "Zaprojektowane i zaimplementowane przez",
     sk: "Návrh a implementácia",
   },
   FB_EV: {
     en: "fb event",
     cs: "fb událost",
+    pl: "fb wydarzenie",
     sk: "fb udalosť",
   },
   HERE: {
     en: "HERE",
     cs: "ZDE",
+    pl: "TUTAJ",
     sk: "TU",
   },
   HOW_MUCH: {
     en: "How much?",
     cs: "Kolik?",
+    pl: "Ile?",
     sk: "Koľko?",
   },
   HOW_MUCH_METHOD: {
     en: "-only online payments are accepted!",
     cs: "-akceptujeme pouze online platby!",
+    pl: "-akceptujemy tylko płatności online!",
     sk: "-akceptujeme iba online platby!",
   },
   HOW_MUCH_PRICE: {
     en: "-65€ for 2 days",
     cs: "-65€ za 2 dny",
+    pl: "-65€ za 2 dni",
     sk: "-65€ za 2 dni",
   },
   LOC: {
     en: "location",
     cs: "lokace",
+    pl: "miejsce",
     sk: "miesto",
   },
   LOCATION: {
     en: "Čadca, Slovakia",
     cs: "Čadca, Slovensko",
+    pl: "Čadca, Słowacja",
     sk: "Čadca, Slovensko",
   },
   MEDIA: {
     en: "Media",
     cs: "Média",
+    pl: "Media",
     sk: "Média",
   },
   MEDIA_DESC: {
     en: "Check out some shots from ADHS who shred the place annually!",
     cs: "Podívejte se na nějaké záběry od ADHS, kteří spot shredí každý rok!",
+    pl: "Zobacz kilka ujęć od ADHS, którzy rokrocznie shredują to miejsce!",
     sk: "Pozrite si nejaké zábery od ADHS, ktorí spot shredia každý rok!",
   },
 
   MORE_INFO: {
     en: "More info will be added...",
     cs: "Více informací přidáme brzy...",
+    pl: "Więcej informacji zostanie dodanych wkrótce...",
     sk: "Viac informácií pridáme čoskoro...",
   },
   RACE: {
     en: "Racing?",
     cs: "Závody?",
+    pl: "Wyścigi?",
     sk: "Závody?",
   },
   RACE_PRIZE: {
     en: "-prize: pool begins at 250€ CA$H",
     cs: "-cena: začíná na 250€ CA$H",
+    pl: "-nagroda: pula zaczyna się od 250€ CA$H",
     sk: "-cena: začína na 250€ CA$H",
   },
   RACE_TYPE: {
     en: "-no paws down if enough people are up for it",
     cs: "-no paws down pokud bude dostatek lidí",
+    pl: "-no paws down jeśli wystarczy ludzi",
     sk: "-no paws down ak bude dostatok ľudí",
   },
   REGISTRATION: {
     en: "Registration",
     cs: "Registrace",
+    pl: "Rejestracja",
     sk: "Registrácia",
   },
   REGO: {
     en: "When registration?",
     cs: "Kdy registrace?",
+    pl: "Kiedy rejestracja?",
     sk: "Kedy registrácia?",
   },
   REGO_NOW: {
     en: "NOW!",
     cs: "TEĎ!",
+    pl: "TERAZ!",
     sk: "TERAZ!",
   },
   SPONSORS: {
     en: "Sponsors",
     cs: "Sponzoři",
+    pl: "Sponsorzy",
     sk: "Sponzori",
   },
   TITLE_1: {
     en: "Short",
     cs: "Krátké",
+    pl: "Krótkie",
     sk: "Krátke",
   },
   TITLE_2: {
     en: "Steep",
     cs: "Strmé",
+    pl: "Strome",
     sk: "Strmé",
   },
   TITLE_3: {
     en: "Fast",
     cs: "Rychlé",
+    pl: "Szybkie",
     sk: "Rýchle",
   },
 
   WHEN: {
     en: "When?",
     cs: "Kdy?",
+    pl: "Kiedy?",
     sk: "Kedy?",
   },
   WHEN_DATE: {
     en: "-10th - 11th June 2023",
     cs: "-10. - 11. Června 2023",
+    pl: "-10. - 11. Czerwca 2023",
     sk: "-10. - 11. Júna 2023",
   },
   WHEN_DAYS: {
     en: "-two days of riding",
     cs: "-dva dny ježdění",
+    pl: "-dwa dni jazdy",
     sk: "-dva dni jazdenia",
   },
   WHERE: {
     en: "Where?",
     cs: "Kde?",
+    pl: "Gdzie?",
     sk: "Kde?",
   },
   DESCRIPTION: {
@@ -187,6 +215,29 @@ export const translations = {
     Vidíme se brzy!
     <br />
     Zdar!
+    <br />
+    SCYTHE`,
+    pl: `Po raz pierwszy w historii postanowiliśmy zorganizować własną imprezę
+    i wybraliśmy nasze ulubione miejsce na Słowacji.
+    <br />
+    Kysuce Scythe Session to krótka, ale bardzo stroma trasa na północy Słowacji.
+    <br />
+    Tor będzie całkowicie zamknięty tylko dla nas, z 
+    <span>TRANSPORTEM NA GÓRĘ</span>, belami w zakrętach
+    i idealne gładką drogą o nachyleniu do <span>18%</span>💀.
+    <br />
+    Będziecie mogli wypróbować nasze najnowsze ciężarówki
+    i inne produkty, które przygotowujemy.
+    <br />
+    Jeśli chcesz się ścigać, mamy dla Ciebie dobrą wiadomość,
+    możesz wziąć udział w krótkim wyścigu bez łap w dół!
+    <br />
+    Biwakować można na miejscowym parkingu lub, jeśli macie hamak, w okolicznym lesie.
+    Dla każdego uczestnika dostępna jest bezpłatna woda.
+    <br />
+    Do zobaczenia wkrótce!
+    <br />
+    Powodzenie!
     <br />
     SCYTHE`,
     sk: `Po prvý krát v histórii sme sa rozhodli usporiadať náš vlastný event a
