@@ -198,29 +198,29 @@ export const translations = {
     sk: "Kde?",
   },
   DESCRIPTION: {
-    de: `Zum ersten Mal in der Geschichte haben wir uns entschieden,
-    unsere eigene Veranstaltung zu organisieren und haben unseren
-    Lieblingsort in der Slowakei gewählt.
+    de: `Für unsere historisch erste eigene Veranstaltung
+    haben wir unsere Lieblingsstrecke in der Slowakei ausgewählt.
     <br />
-    Die Kysuce Scythe Session ist eine kurze, aber sehr steile
-    Strecke im Norden der Slowakei.
+    Die Kysuce Scythe Session ist eine kurze, aber sehr
+    steile Strecke im Norden der Slowakei.
     <br />
-    Die Strecke wird nur für uns komplett gesperrt, mit
-    <span>SHUTTLE-VAN</span>, Ballen in Kurven und einer schön glatten
-    Straße mit einer Steigung von bis zu <span>18%</span>💀
+    Die Strecke wird nur für uns vollständig abgesperrt, die Ecken mit Heuballen gesichert und ein 
+    <span>SHUTTLE-VAN</span> bereitgestellt. Der schöne glatte Asphalt
+    lockt mit einer Steigung von bis zu <span>18%</span>💀
     <br />
-    Sie können unsere neuesten Trucks und andere Produkte,
-    die wir vorbereiten, ausprobieren.
+    Während des Events können Sie unsere neuesten Reaper Trucks
+    und andere zukünftige Produkte der SCYTHE Küche.
     <br />
-    Wenn Sie Rennen fahren möchten, haben wir gute Neuigkeiten für Sie:
-    Sie können an einem kurzen No-paws-down-Rennen teilnehmen!
+    Falls Sie kompetitiv sind, haben wir gute Neuigkeiten für Sie:
+    Teil des Events wird ein kurzes No-Paws-Down-Rennen sein.
     <br />
-    Sie können auf dem örtlichen Parkplatz oder, wenn Sie eine Hängematte haben,
-    im umliegenden Wald campen. Für jeden Teilnehmer steht kostenloses Wasser zur Verfügung.
+    Über die Nacht können Sie auf dem örtlichen Parkplatz oder mit einer
+    Hängematte im umliegenden Wald campen. Während des ganzen Events steht
+    für jeden Teilnehmer kostenloses Wasser zur Verfügung
     <br />
-    Bis bald!
+    Wir freuen uns auf Sie!
     <br />
-    Erfolg!
+    Cheers!
     <br />
     SCYTHE
     `,
