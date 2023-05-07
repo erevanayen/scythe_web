@@ -7,14 +7,12 @@ let prevScrollPos = window.pageYOffset;
 function handleScroll() {
   const currentScrollPos = window.pageYOffset;
 
-  if (prevScrollPos > currentScrollPos) {
+  if (prevScrollPos > currentScrollPos || currentScrollPos < 200) {
     // Scrolling up
     header.style.opacity = 1; // Show the header
-    console.log("scolling up");
   } else {
     // Scrolling down
     header.style.opacity = 0; // Hide the header
-    console.log("scolling down");
   }
 
   prevScrollPos = currentScrollPos;

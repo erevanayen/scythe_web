@@ -168,7 +168,7 @@ export const translations = {
     <br />
     SCYTHE`,
     cs: `Poprvé v historii jsme se rozhodli uspořádat náš vlastní event a 
-    rozhodli pro naše oblíbené místo na Slovensku.
+    zvolili jsme naše oblíbené místo na Slovensku.
     <br />
     Kysuce Scythe Session je sice krátká, ale zato velmi prudká trať na severu Slovenska.
     <br />
@@ -182,7 +182,7 @@ export const translations = {
     můžete se zúčastnit krátkého no-paws-down závodu!
     <br />
     Můžete se utábořit na zdejším parkovišti, nebo pokud máte hamaku,
-    tak v okolním lese.Voda zdarma je dostupná pro každého zúčastněného.
+    tak v okolním lese. Voda zdarma je dostupná pro každého účastníka.
     <br />
     Vidíme se brzy!
     <br />

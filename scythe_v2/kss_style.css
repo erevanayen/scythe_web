@@ -44,6 +44,11 @@ header {
   justify-content: flex-end;
   padding: 16px;
   box-sizing: border-box;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.534) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 
   transition: opacity 0.3s ease;
 }
