@@ -1,6 +1,42 @@
 import { translations } from "../tanslations/translationMain.js";
+import { supportedLanguages } from "../tanslations/languages.js";
 
+// Function to check if the browser language is supported
+function isLanguageSupported(language) {
+  return supportedLanguages.hasOwnProperty(language);
+}
 window.onload = function () {
+  // Function to set up the language options in the select element
+  function setUpLanguageOptions() {
+    const languageSelector = document.getElementById("languageSelector");
+
+    // Clear existing options
+    languageSelector.innerHTML = "";
+
+    // Create and append options for each supported language
+    for (const languageCode in supportedLanguages) {
+      if (supportedLanguages.hasOwnProperty(languageCode)) {
+        const option = document.createElement("option");
+        option.value = languageCode;
+        option.text = supportedLanguages[languageCode];
+        languageSelector.appendChild(option);
+      }
+    }
+  }
+
+  // Function to set the default language based on the browser language
+  function setDefaultLanguage() {
+    const browserLanguage = navigator.language.substring(0, 2);
+
+    if (isLanguageSupported(browserLanguage)) {
+      // Set the default language to the browser language
+      const languageSelector = document.getElementById("languageSelector");
+      languageSelector.value = browserLanguage;
+
+      console.info("Default language: " + browserLanguage);
+    }
+  }
+
   function changeLanguage() {
     // Get the selected language
     const languageSelector = document.getElementById("languageSelector");
@@ -39,5 +75,7 @@ window.onload = function () {
     .addEventListener("change", changeLanguage);
 
   // set up initial language
+  setUpLanguageOptions();
+  setDefaultLanguage();
   changeLanguage();
 };
