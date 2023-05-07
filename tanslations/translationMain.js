@@ -1,77 +1,90 @@
 export const translations = {
   AYO: {
+    de: "Ayo!",
     en: "Ayo!",
     cs: "Čus!",
     pl: "Cześć!",
     sk: "Čau!",
   },
   BASIC_HEAD: {
+    de: "Grundlegende Informationen",
     en: "Basic info",
     cs: "Základní informace",
     pl: "Podstawowe informacje",
     sk: "Základné informácie",
   },
   DATE: {
+    de: "10.-11. Juni",
     en: "10.-11. June",
     cs: "10.-11. Června",
     pl: "10.-11. Czerwca",
     sk: "10.-11. Júna",
   },
   DESIGNED: {
+    de: "Entworfen und implementiert von",
     en: "Designed and implemented by",
     cs: "Návrh a implementace",
     pl: "Zaprojektowane i zaimplementowane przez",
     sk: "Návrh a implementácia",
   },
   FB_EV: {
+    de: "fb ereignis",
     en: "fb event",
     cs: "fb událost",
     pl: "fb wydarzenie",
     sk: "fb udalosť",
   },
   HERE: {
+    de: "HIER",
     en: "HERE",
     cs: "ZDE",
     pl: "TUTAJ",
     sk: "TU",
   },
   HOW_MUCH: {
+    de: "Wie viel?",
     en: "How much?",
     cs: "Kolik?",
     pl: "Ile?",
     sk: "Koľko?",
   },
   HOW_MUCH_METHOD: {
+    de: "-nur online zahlungen werden akzeptiert!",
     en: "-only online payments are accepted!",
     cs: "-akceptujeme pouze online platby!",
     pl: "-akceptujemy tylko płatności online!",
     sk: "-akceptujeme iba online platby!",
   },
   HOW_MUCH_PRICE: {
+    de: "-65€ für 2 Tage",
     en: "-65€ for 2 days",
     cs: "-65€ za 2 dny",
     pl: "-65€ za 2 dni",
     sk: "-65€ za 2 dni",
   },
   LOC: {
+    de: "Ort",
     en: "location",
     cs: "lokace",
     pl: "miejsce",
     sk: "miesto",
   },
   LOCATION: {
+    de: "Čadca, Slowakei",
     en: "Čadca, Slovakia",
     cs: "Čadca, Slovensko",
     pl: "Čadca, Słowacja",
     sk: "Čadca, Slovensko",
   },
   MEDIA: {
+    de: "Medien",
     en: "Media",
     cs: "Média",
     pl: "Media",
     sk: "Média",
   },
   MEDIA_DESC: {
+    de: "Schau dir einige Aufnahmen von ADHS an, die den Spot jedes Jahr shredden!",
     en: "Check out some shots from ADHS who shred the place annually!",
     cs: "Podívejte se na nějaké záběry od ADHS, kteří spot shredí každý rok!",
     pl: "Zobacz kilka ujęć od ADHS, którzy rokrocznie shredują to miejsce!",
@@ -79,66 +92,77 @@ export const translations = {
   },
 
   MORE_INFO: {
+    de: "Weitere Informationen werden hinzugefügt...",
     en: "More info will be added...",
     cs: "Více informací přidáme brzy...",
     pl: "Więcej informacji zostanie dodanych wkrótce...",
     sk: "Viac informácií pridáme čoskoro...",
   },
   RACE: {
+    de: "Rennen?",
     en: "Racing?",
     cs: "Závody?",
     pl: "Wyścigi?",
     sk: "Závody?",
   },
   RACE_PRIZE: {
+    de: "-Preis: beginnt bei 250€ CA$H",
     en: "-prize: pool begins at 250€ CA$H",
     cs: "-cena: začíná na 250€ CA$H",
     pl: "-nagroda: pula zaczyna się od 250€ CA$H",
     sk: "-cena: začína na 250€ CA$H",
   },
   RACE_TYPE: {
+    de: "-no paws down wenn genug Leute dafür sind",
     en: "-no paws down if enough people are up for it",
     cs: "-no paws down pokud bude dostatek lidí",
     pl: "-no paws down jeśli wystarczy ludzi",
     sk: "-no paws down ak bude dostatok ľudí",
   },
   REGISTRATION: {
+    de: "Registrierung",
     en: "Registration",
     cs: "Registrace",
     pl: "Rejestracja",
     sk: "Registrácia",
   },
   REGO: {
+    de: "Wann Registrierung?",
     en: "When registration?",
     cs: "Kdy registrace?",
     pl: "Kiedy rejestracja?",
     sk: "Kedy registrácia?",
   },
   REGO_NOW: {
+    de: "JETZT!",
     en: "NOW!",
     cs: "TEĎ!",
     pl: "TERAZ!",
     sk: "TERAZ!",
   },
   SPONSORS: {
+    de: "Sponsoren",
     en: "Sponsors",
     cs: "Sponzoři",
     pl: "Sponsorzy",
     sk: "Sponzori",
   },
   TITLE_1: {
+    de: "Kurz",
     en: "Short",
     cs: "Krátké",
     pl: "Krótkie",
     sk: "Krátke",
   },
   TITLE_2: {
+    de: "Steil",
     en: "Steep",
     cs: "Strmé",
     pl: "Strome",
     sk: "Strmé",
   },
   TITLE_3: {
+    de: "Schnell",
     en: "Fast",
     cs: "Rychlé",
     pl: "Szybkie",
@@ -146,30 +170,60 @@ export const translations = {
   },
 
   WHEN: {
+    de: "Wann?",
     en: "When?",
     cs: "Kdy?",
     pl: "Kiedy?",
     sk: "Kedy?",
   },
   WHEN_DATE: {
+    de: "-10. - 11. Juni 2023",
     en: "-10th - 11th June 2023",
     cs: "-10. - 11. Června 2023",
     pl: "-10. - 11. Czerwca 2023",
     sk: "-10. - 11. Júna 2023",
   },
   WHEN_DAYS: {
+    de: "-zwei Tage fahren",
     en: "-two days of riding",
     cs: "-dva dny ježdění",
     pl: "-dwa dni jazdy",
     sk: "-dva dni jazdenia",
   },
   WHERE: {
+    de: "Wo?",
     en: "Where?",
     cs: "Kde?",
     pl: "Gdzie?",
     sk: "Kde?",
   },
   DESCRIPTION: {
+    de: `Zum ersten Mal in der Geschichte haben wir uns entschieden,
+    unsere eigene Veranstaltung zu organisieren und haben unseren
+    Lieblingsort in der Slowakei gewählt.
+    <br />
+    Die Kysuce Scythe Session ist eine kurze, aber sehr steile
+    Strecke im Norden der Slowakei.
+    <br />
+    Die Strecke wird nur für uns komplett gesperrt, mit
+    <span>SHUTTLE-VAN</span>, Ballen in Kurven und einer schön glatten
+    Straße mit einer Steigung von bis zu <span>18%</span>💀
+    <br />
+    Sie können unsere neuesten Trucks und andere Produkte,
+    die wir vorbereiten, ausprobieren.
+    <br />
+    Wenn Sie Rennen fahren möchten, haben wir gute Neuigkeiten für Sie:
+    Sie können an einem kurzen No-paws-down-Rennen teilnehmen!
+    <br />
+    Sie können auf dem örtlichen Parkplatz oder, wenn Sie eine Hängematte haben,
+    im umliegenden Wald campen. Für jeden Teilnehmer steht kostenloses Wasser zur Verfügung.
+    <br />
+    Bis bald!
+    <br />
+    Erfolg!
+    <br />
+    SCYTHE
+    `,
     en: `For the first time ever we have decided to hold an event on one
     of our favorite spots in Slovakia.
     <br />
