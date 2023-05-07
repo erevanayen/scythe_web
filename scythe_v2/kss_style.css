@@ -33,6 +33,35 @@ footer {
 footer a {
   color: #ee00ff;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+  box-sizing: border-box;
+
+  transition: opacity 0.3s ease;
+}
+
+#languageSelector {
+  background: transparent;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 900;
+  color: var(--col-cornsilk);
+}
+
+#languageSelector option {
+  background-color: transparent;
+  font-weight: 400;
+  color: var(--col-black);
+}
+
 #background {
   position: fixed;
   height: 100svh;
@@ -118,6 +147,9 @@ footer a {
 .text-section > div > div > p > span {
   font-weight: 900;
   color: var(--col-phlox);
+}
+.text-section > div > div > p > br {
+  margin-bottom: 0.8em !important;
 }
 .info-par {
   margin-top: 1rem;

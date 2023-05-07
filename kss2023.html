@@ -11,8 +11,19 @@
       content="Downhill skateboarding freeride event in Slovakia"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./scripts/translate.js" type="module"></script>
+
     <title>Kysuce Scythe Session 2023</title>
   </head>
+
+  <header>
+    <select id="languageSelector">
+      <option value="en">English</option>
+      <option value="cs">Česky</option>
+      <option value="sk">Slovensky</option>
+    </select>
+  </header>
+
   <body>
     <div id="app">
       <div id="background"></div>
@@ -22,21 +33,21 @@
         <div id="track">
           <img src="./scythe_v2/assets/track_cut.svg" />
           <div id="main-text">
-            <p>Short</p>
-            <p>Steep</p>
-            <p>Smooth</p>
+            <p data-translation-key="TITLE_1">Short</p>
+            <p data-translation-key="TITLE_2">Steep</p>
+            <p data-translation-key="TITLE_3">Fast</p>
           </div>
           <div id="dates">
-            <p>10.-11. June</p>
-            <p>Čadca, Slovakia</p>
+            <p data-translation-key="DATE">10.-11. June</p>
+            <p data-translation-key="LOCATION">Čadca, Slovakia</p>
             <div id="links">
               <a href="https://fb.me/e/2MsvBByV5" target="_blank">
                 <img src="./scythe_v2/assets/ic-cal.svg" />
-                <span>fb event</span>
+                <span data-translation-key="FB_EV">fb event</span>
               </a>
               <a href="https://goo.gl/maps/EF67G7oJowa6wbcS7" target="_blank">
                 <img src="./scythe_v2/assets/ic-loc.svg" />
-                <span>location</span>
+                <span data-translation-key="LOC">location</span>
               </a>
             </div>
           </div>
@@ -46,7 +57,7 @@
             href="https://goout.net/en/kysuce-scythe-session-2023/szubasv/"
             target="_blank"
           >
-            <p>Registration</p>
+            <p data-translation-key="REGISTRATION">Registration</p>
             <div></div>
           </a>
         </div>
@@ -58,72 +69,86 @@
       <div id="pink-bg">
         <section id="sec-about" class="text-section">
           <div>
-            <h1>Ayo!</h1>
+            <h1 data-translation-key="AYO">Ayo!</h1>
             <div>
-              <p>
+              <p id="largerText">
                 For the first time ever we have decided to hold an event on one
                 of our favorite spots in Slovakia.
-              </p>
-              <p>
+                <br />
                 Kysuce Scythe Session takes place on a short but steep track in
                 the north of Slovakia.
-              </p>
-              <p>
+                <br />
                 The track will be completely closed with a
                 <span>VAN SHUTTLE</span>, hay in the corners and smooth, hot
                 pavement with grade up to <span>18%</span>💀.
-              </p>
-              <p>
+                <br />
                 Also, you'll be able to try out our newest Reaper trucks and
                 whatever else we are cooking for the future of Scythe.
-              </p>
-              <p>
+                <br />
                 For those who are up for some <span>racing</span> action, we
                 will also hold a quick no-paws-down style race.
-              </p>
-              <p>
+                <br />
                 We will be also providing a space for camping on a nearby
                 parking lot, or you can hang your hammock in the trees. Water
                 will also be available on site for every rider.
+                <br />
+                We hope to see you soon.
+                <br />
+                Cheers!
+                <br />
+                SCYTHE
               </p>
-              <p>We hope to see you soon.</p>
-              <p>Cheers!</p>
-              <p>SCYTHE</p>
             </div>
           </div>
         </section>
 
         <section id="sec-price" class="text-section">
           <div>
-            <h1>Basic info</h1>
+            <h1 data-translation-key="BASIC_HEAD">Basic info</h1>
             <div>
               <div class="info-par">
-                <h2>Where?</h2>
-                <a href="https://goo.gl/maps/EF67G7oJowa6wbcS7" target="_blank"
+                <h2 data-translation-key="WHERE">Where?</h2>
+                <a
+                  href="https://goo.gl/maps/EF67G7oJowa6wbcS7"
+                  target="_blank"
+                  data-translation-key="HERE"
                   >HERE</a
                 >
               </div>
               <div class="info-par">
-                <h2>When?</h2>
-                <p>-10th - 11th June 2023</p>
-                <p>-two days of riding</p>
+                <h2 data-translation-key="WHEN">When?</h2>
+                <p data-translation-key="WHEN_DATE">-10th - 11th June 2023</p>
+                <p data-translation-key="WHEN_DAYS">-two days of riding</p>
               </div>
               <div class="info-par">
-                <h2>How much?</h2>
-                <p>-65€ for 2 days</p>
-                <p>-only online payments are accepted!</p>
+                <h2 data-translation-key="HOW_MUCH">How much?</h2>
+                <p data-translation-key="HOW_MUCH_PRICE">-65€ for 2 days</p>
+                <p data-translation-key="HOW_MUCH_METHOD">
+                  -only online payments are accepted!
+                </p>
               </div>
               <div class="info-par">
-                <h2>Racing?</h2>
-                <p>-no paws down if enough people are up for it</p>
-                <p>-prize: pool begins at 250€ CA$H</p>
+                <h2 data-translation-key="RACE">Racing?</h2>
+                <p data-translation-key="RACE_TYPE">
+                  -no paws down if enough people are up for it
+                </p>
+                <p data-translation-key="RACE_PRIZE">
+                  -prize: pool begins at 250€ CA$H
+                </p>
               </div>
               <div class="info-par">
-                <h2>When registration?</h2>
-                <p>-soon</p>
+                <h2 data-translation-key="REGO">When registration?</h2>
+                <a
+                  data-translation-key="REGO_NOW"
+                  href="https://goout.net/en/kysuce-scythe-session-2023/szubasv/"
+                  target="_blank"
+                  >NOW!</a
+                >
               </div>
               <div class="info-par">
-                <h2>More info will be added...</h2>
+                <h2 data-translation-key="MORE_INFO">
+                  More info will be added...
+                </h2>
               </div>
             </div>
           </div>
@@ -131,9 +156,11 @@
 
         <section class="text-section">
           <div>
-            <h1>Media</h1>
+            <h1 data-translation-key="MEDIA">Media</h1>
             <div>
-              <p>Check out some shots from ADHS who shred the place annually</p>
+              <p data-translation-key="MEDIA_DESC">
+                Check out some shots from ADHS who shred the place annually
+              </p>
               <iframe
                 class="video"
                 src="https://www.youtube.com/embed/-cLD55-iUdI"
@@ -148,7 +175,7 @@
 
         <section class="text-section">
           <div>
-            <h1>Sponsors</h1>
+            <h1 data-translation-key="SPONSORS">Sponsors</h1>
             <div class="base-grid">
               <a
                 class="card"
@@ -184,10 +211,12 @@
       <a href="https://scythegear.com/" target="_blank">© 2023 Scythe Gear</a>
 
       <p>
-        Designed by
+        <span data-translation-key="DESIGNED">Designed by</span>
         <a href="https://erevanayen.art/" target="_blank">@erevanayen</a>
       </p>
     </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
+  <!-- keep this on the bottom -->
+  <script src="./scripts/scroll.js"></script>
 </html>
