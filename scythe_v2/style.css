@@ -1,3 +1,10 @@
+:root {
+  --col-phlox: #ee00ff;
+  --col-canary: #fff300;
+  --col-cornsilk: #fff3cf;
+  --col-cyan: #00f0e1;
+  --col-black: #1d1d1d;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -122,6 +129,12 @@ body {
 
 .news-block span {
   color: white;
+}
+
+.news-block p a {
+  color: var(--col-cyan);
+  font-weight: 900;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
