@@ -99,7 +99,26 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  text-decoration: none;
 }
+.base-grid .card:hover {
+  background-color: var(--col-black);
+  cursor: pointer;
+}
+.base-grid .card p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--col-cornsilk);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.base-grid .card span {
+  font-weight: 400;
+  color: var(--col-cornsilk);
+}
+
 #sec-one {
   z-index: 2;
 }
