@@ -14,6 +14,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .all-content {
   width: 50%;
   display: flex;
@@ -22,6 +26,9 @@ body {
 }
 
 .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 100%;
   height: 300px;
@@ -42,6 +49,9 @@ body {
 .blue-text {
   color: #00f0e1;
 }
+.corn-text {
+  color: var(--col-cornsilk);
+}
 
 .yellow-text {
   color: #fff300;
@@ -52,27 +62,11 @@ body {
 }
 
 #logo {
-  background-image: url("./assets/scythe_logo_est_color.svg");
+  background-image: url("./assets/80s_logo_yellow.png");
   background-size: 100% 100%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  width: 90%;
+  aspect-ratio: 400/122;
   z-index: 2;
-  top: 0px;
-  left: 0px;
-
-  transition: top 1s, left 1s;
-}
-
-#logo_shadow {
-  background-image: url("./assets/scythe_logo_est_color_3.svg");
-  background-size: 100% 100%;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 1;
-  top: 0px;
-  left: 0px;
 
   transition: top 1s, left 1s;
 }
@@ -135,6 +129,38 @@ body {
   color: var(--col-cyan);
   font-weight: 900;
   text-decoration: none;
+}
+
+.kss-block {
+  position: relative;
+}
+
+.kss-block p {
+  position: relative;
+  z-index: 2;
+}
+
+.kss-block:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s, background-size 0.2s;
+  opacity: 0.15;
+  background-image: url("./assets/kss_logo.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: normal;
+  z-index: 0;
+}
+
+.kss-block:hover:after {
+  opacity: 0.25;
+  background-size: 110%;
 }
 
 @media screen and (max-width: 800px) {

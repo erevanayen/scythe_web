@@ -4,7 +4,7 @@ var offset = "0.3";
 var themeToggle = true;
 var hideToggle = true;
 var counter = 0;
-var limit = 5;
+var limit = 10;
 
 const logoEl = document.getElementById("logo");
 const shadowEl = document.getElementById("logo_shadow");
