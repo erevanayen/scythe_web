@@ -275,7 +275,7 @@ header {
   margin-top: 3rem;
   font-size: 2rem;
   font-weight: 700;
-  color: var(--col-cornsilk);
+  color: var(--col-phlox);
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -287,6 +287,11 @@ header {
 }
 #rego p {
   margin: 0;
+  border: 2px solid var(--col-phlox);
+}
+#rego p:hover {
+  color: var(--col-black);
+  background-color: var(--col-phlox);
 }
 #rego p:first-child {
   text-transform: uppercase;
