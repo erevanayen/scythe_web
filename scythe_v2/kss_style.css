@@ -272,6 +272,7 @@ header {
 }
 #rego {
   position: relative;
+  z-index: 12;
   margin-top: 3rem;
   font-size: 2rem;
   font-weight: 700;
