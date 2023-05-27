@@ -176,14 +176,14 @@ export const translations = {
     sk: "Trať",
   },
   TRACK_DESC: {
-    de: "Die Strecke ist zwar kurz, aber wenn Sie möchten, können Sie damit recht viel Geschwindigkeit erreichen. Aber Sie sollten sich keine Sorgen machen, wenn Sie in beide Richtungen gleiten können.",
+    de: "Die Strecke ist zwar kurz aber man kann auf ihr hohe Geschwindigkeiten erreichen. Falls Sie auf beiden Seiten sliden können, sollte das für Sie jedoch kein Problem sein.",
     en: "The track is short but lets you get quite some speed if you want. But you shouldn't worry if you can sldie both ways.",
     cs: "Trať je krátká, ale docela rychlá, pokud chcete. Nemusíte se ale bát, pokud umíte slide na obě strany.",
     pl: "Tor jest krótki, ale pozwala na osiągnięcie dość dużej prędkości, jeśli chcesz. Ale nie powinieneś się martwić, jeśli możesz slie obiema stronami.",
     sk: "Trať je krátka, ale celkom rýchla, ak chcete. Nemusíte sa ale báť, ak viete slide na obe strany.",
   },
   TRACK_DESC_2: {
-    de: "Für alle, die ihre Fähigkeiten verbessern möchten, bieten wir während der gesamten Veranstaltung kostenlose Rutschkurse an.",
+    de: "Für alle, die Ihre Fähigkeiten noch verbessern möchten, bieten wir wärend des gesammten Wochenendes kostenlose Slide-Kurse an.",
     en: "For anyone who wants to improve their skills, we will be offering free slide lessons for the whole duration of the event.",
     cs: "Pro každého, kdo si chce zlepšit své dovednosti, budeme po celou dobu akce nabízet bezplatné lekce slidu.",
     pl: "Dla wszystkich, którzy chcą poprawić swoje umiejętności, będziemy oferować bezpłatne lekcje slajdów przez cały czas trwania wydarzenia.",
