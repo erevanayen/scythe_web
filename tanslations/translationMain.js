@@ -13,6 +13,13 @@ export const translations = {
     pl: "Podstawowe informacje",
     sk: "Základné informácie",
   },
+  BROUGHT: {
+    de: "Präsentiert von:",
+    en: "Brought to you by:",
+    cs: "Přináší vám:",
+    pl: "Przedstawiają:",
+    sk: "Prináša vám:",
+  },
   DATE: {
     de: "10.-11. Juni",
     en: "10.-11. June",
