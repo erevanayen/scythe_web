@@ -14,43 +14,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
 
-  <body id="trigger">
-    <div class="all-content">
+  <body>
+    <section id="main-screen">
       <div class="logo-container">
-        <div id="logo"></div>
+        <img id="main-logo" src="./scythe_v2/assets/80s_logo_dark.png" />
+        <img class="cross top left" src="./scythe_v2/assets/el_cross.svg" />
+        <img class="cross top right" src="./scythe_v2/assets/el_cross.svg" />
+        <img class="cross bot left" src="./scythe_v2/assets/el_cross.svg" />
+        <img class="cross bot right" src="./scythe_v2/assets/el_cross.svg" />
+        <p class="edge-text top">RIDE THE EDGE</p>
+        <p class="edge-text bot">SINCE 2020</p>
       </div>
+      <div class="menu-container">
+        <a class="menu-item" href="#events">EVENTS</a>
+        <a class="menu-item" href="#trucks">TRUCKS</a>
+        <a class="menu-item" href="#footstops">FOOTSTOPS</a>
+        <a class="menu-item" href="#grip">GRIP</a>
+        <a class="menu-item" href="#media">MEDIA</a>
+      </div>
+    </section>
 
-      <div class="news">
-        <a href="./kss2023.html" class="news-block yellow-text kss-block">
-          <h2>EVENT</h2>
-          <p>
-            <span>Come check out our fist event!</span>
-          </p>
-          <p>Date: <span>10th-11th June 2023</span></p>
-          <p>Price: <span>65€</span></p>
+    <section id="events" class="page-section">
+      <div class="page-title">
+        <h1>EVENTS</h1>
+      </div>
+      <div class="page-cards">
+        <a class="event-card" href="https://scythegear.com/kss2023">
+          <div class="img-container">
+            <img src="./scythe_v2/assets/kss_2023_FB_06.png" />
+          </div>
+          <div>
+            <h2>Kysuce Scythe Session 2023</h2>
+            <p><span>Date:</span> 10th-11th June 2023</p>
+            <p><span>Location:</span> Čadca, Slovakia</p>
+            <p class="click">...click for more info</p>
+          </div>
         </a>
-        <div class="news-block corn-text">
-          <h2>REAPER trucks</h2>
-          <p>Status: <span>Available</span></p>
-        </div>
-        <div class="news-block pink-text">
-          <h2>FOOTSTOPS</h2>
-          <p>
-            Status: <span>Prototyping new models + preparing next batch</span>
-          </p>
-        </div>
-        <div class="news-block blue-text">
-          <h2>GRIP</h2>
-          <p>Status: <span>Available</span></p>
-        </div>
+        <a class="event-card">
+          <div class="img-container">
+            <img src="./scythe_v2/assets/80s_logo_yellow.png"" />
+          </div>
+          <div>
+            <h2>Downhill School</h2>
+            <p><span>Date:</span> TBA</p>
+            <p><span>Location:</span> Prague, Czechia</p>
+            <p class="click">...coming soon</p>
+          </div>
+        </a>
       </div>
+    </section>
 
-      <div class="socials">
+    <section id="trucks" class="page-section">
+      <div class="page-title">
+        <h1>TRUCKS</h1>
+      </div>
+    </section>
+
+    <section id="footstops" class="page-section">
+      <div class="page-title">
+        <h1>FOOTSTOPS</h1>
+      </div>
+    </section>
+
+    <section id="grip" class="page-section">
+      <div class="page-title">
+        <h1>GRIP</h1>
+      </div>
+    </section>
+
+    <section id="media" class="page-section">
+      <div class="page-title">
+        <h1>MEDIA</h1>
+      </div>
+      <div class="page-cards">
         <a
           href="https://www.instagram.com/scythe_gear/"
           id="soc-ig"
@@ -62,7 +107,14 @@
           class="social-icon"
         ></a>
       </div>
-    </div>
-    <script type="text/javascript" src="./scythe_v2/click_logo.js"></script>
+    </section>
   </body>
+  <footer>
+    <a href="https://scythegear.com/" target="_blank">© 2023 Scythe Gear</a>
+
+    <p>
+      <span data-translation-key="DESIGNED">Designed by</span>
+      <a href="https://erevanayen.art/" target="_blank">@erevanayen</a>
+    </p>
+  </footer>
 </html>

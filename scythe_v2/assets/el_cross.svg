@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2762,-2726)">
+        <g id="Crosses" transform="matrix(0.800753,0,0,0.766299,550.32,636.786)">
+            <rect x="2762" y="2726.37" width="79.925" height="83.518" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="2762" y="2726.37" width="79.925" height="83.518"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.24882,0,0,1.30497,-687.253,-830.989)">
+                    <path d="M2802,2750L2802,2726L2786,2726L2786,2750L2762,2750L2762,2766L2786,2766L2786,2790L2802,2790L2802,2766L2826,2766L2826,2750L2802,2750Z" style="fill:rgb(29,29,29);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

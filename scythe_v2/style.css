@@ -4,42 +4,216 @@
   --col-cornsilk: #fff3cf;
   --col-cyan: #00f0e1;
   --col-black: #1d1d1d;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
-
-a {
-  text-decoration: none;
+html {
+  scroll-behavior: smooth;
 }
-
-.all-content {
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--col-black);
+}
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--col-black);
+  color: var(--col-cornsilk);
+  z-index: 5;
+  box-sizing: border-box;
+  padding: 16px 32px;
+}
+footer a {
+  color: #ee00ff;
+}
+section {
+  width: 100%;
+  height: 100svh;
+}
+#main-screen {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--col-cornsilk);
+}
+.logo-container {
   width: 50%;
+  height: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.logo-container {
-  display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  width: 100%;
-  height: 300px;
-  max-width: 600px;
 }
-
-.see-me {
-  color: black;
+#main-logo {
+  width: 60%;
+}
+.cross {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.top {
+  top: 8px;
+}
+.bot {
+  bottom: 8px;
+}
+.left {
+  left: 8px;
+}
+.right {
+  right: 8px;
+}
+.edge-text {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8ch;
+  color: var(--col-black);
+  font-family: "Raleway", sans-serif;
+}
+.menu-container {
+  width: 50%;
+  height: 100%;
+  background-color: var(--col-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu-item {
+  color: var(--col-cornsilk);
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+.menu-item::before {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 8px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-image: url(./assets/el_cross.svg);
+  transition: margin-right 0.2s ease-in-out;
+}
+.menu-item:hover {
+  color: var(--col-black);
+  cursor: pointer;
+  background-color: var(--col-cornsilk);
+}
+.menu-item:hover::before {
+  margin-right: 2rem;
+}
+.page-section {
+  display: flex;
+  flex-direction: column;
+}
+.page-title {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+}
+.page-title > h1 {
+  margin-left: 1.5rem;
+}
+.page-cards {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.event-card {
+  position: relative;
+  height: 60svh;
+  aspect-ratio: 2/3;
+  display: flex;
+  flex-direction: column;
+  border: var(--col-cornsilk) 2px solid;
+  overflow: hidden;
+}
+.event-card .img-container {
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.event-card .img-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: scale 0.2s ease-in-out;
+}
+.event-card > div {
+  padding: 0.5rem;
+  height: 60%;
+}
+.event-card > div > h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  color: var(--col-cornsilk);
+  margin-top: 0px;
+}
+.event-card > div > p {
   font-size: 1rem;
-
-  transition: color 1s;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: var(--col-cornsilk);
+  margin-top: 0px;
+}
+.event-card > div > p > span {
+  font-weight: 900;
+  color: var(--col-phlox);
+}
+.event-card .click {
+  position: absolute;
+  font-weight: 400;
+  margin: 0px;
+  bottom: 0.5rem;
+  right: 0.6rem;
+}
+.event-card:hover {
+  cursor: pointer;
+}
+.event-card:hover .img-container > img {
+  scale: 1.08;
+}
+#events {
+  color: var(--col-cornsilk);
+}
+#trucks {
+  background-color: var(--col-cornsilk);
+  color: var(--col-black);
+}
+#footstops {
+  background-color: var(--col-black);
+  color: var(--col-cornsilk);
+}
+#grip {
+  background-color: var(--col-cornsilk);
+  color: var(--col-black);
+}
+#media {
+  background-color: var(--col-black);
+  color: var(--col-cornsilk);
+  height: auto;
+}
+#media .page-cards {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
+/* ------------------------------------------------------------ */
+a {
+  text-decoration: none;
 }
 
 .pink-text {
@@ -61,29 +235,10 @@ a {
   color: white;
 }
 
-#logo {
-  background-image: url("./assets/80s_logo_yellow.png");
-  background-size: 100% 100%;
-  width: 90%;
-  aspect-ratio: 400/122;
-  z-index: 2;
-
-  transition: top 1s, left 1s;
-}
-
-.socials {
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 2rem;
-  max-width: 450px;
-  min-width: 200px;
-}
-
 .social-icon {
   background-size: 100% 100%;
-  height: 2rem;
-  width: 2rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 #soc-ig {
@@ -92,83 +247,4 @@ a {
 
 #soc-yt {
   background-image: url("./assets/yt_tricolor.svg");
-}
-
-.news {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-  font-size: 1rem;
-}
-
-.news-block {
-  border: 1px solid;
-  padding: 0px 1rem 0px 1rem;
-  width: 80%;
-  max-width: 450px;
-  min-width: 200px;
-}
-
-.news-block h2 {
-  font-size: 1rem;
-  border-bottom: 0.8px dashed;
-}
-
-.news-block:not(:first-child) {
-  margin-top: 1.5rem;
-}
-
-.news-block span {
-  color: white;
-}
-
-.news-block p a {
-  color: var(--col-cyan);
-  font-weight: 900;
-  text-decoration: none;
-}
-
-.kss-block {
-  position: relative;
-}
-
-.kss-block p {
-  position: relative;
-  z-index: 2;
-}
-
-.kss-block:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  transition: opacity 0.5s, background-size 0.2s;
-  opacity: 0.15;
-  background-image: url("./assets/kss_logo.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: normal;
-  z-index: 0;
-}
-
-.kss-block:hover:after {
-  opacity: 0.25;
-  background-size: 110%;
-}
-
-@media screen and (max-width: 800px) {
-  body {
-    padding-bottom: 10%;
-  }
-
-  .all-content {
-    width: 80%;
-  }
 }
