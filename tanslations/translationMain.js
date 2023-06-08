@@ -34,6 +34,13 @@ export const translations = {
     pl: "Zaprojektowane i zaimplementowane przez",
     sk: "Návrh a implementácia",
   },
+  DOCUMENTS: {
+    de: "Dokumente",
+    en: "Documents",
+    cs: "Dokumenty",
+    pl: "Dokumenty",
+    sk: "Dokumenty",
+  },
   FB_EV: {
     de: "fb ereignis",
     en: "fb event",
