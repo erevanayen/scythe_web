@@ -111,7 +111,7 @@ export const translations = {
     pl: "Čadca, Słowacja",
     sk: "Čadca, Slovensko",
   },
-  LOCATIOS: {
+  LOCATIONS: {
     de: "ORTE",
     en: "LOCATIONS",
     cs: "LOKACE",

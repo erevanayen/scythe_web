@@ -64,7 +64,7 @@ window.onload = function () {
       translations[LongTranslationKey][selectedLanguage] || LongTranslationKey;
 
     // Update the HTML content of the element with the translated text
-    largerTextElement.innerHTML = LongTranslation;
+    // largerTextElement.innerHTML = LongTranslation;
 
     console.info("Changed language: " + selectedLanguage);
   }
