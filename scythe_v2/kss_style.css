@@ -119,6 +119,18 @@ header {
   color: var(--col-cornsilk);
 }
 
+.info-loc {
+  display: flex;
+  flex-direction: column;
+}
+.info-loc a {
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 900;
+  color: var(--col-phlox);
+  margin-bottom: 1rem;
+}
+
 #sec-one {
   z-index: 2;
 }
@@ -316,6 +328,14 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+#sec-program ul li {
+  display: flex;
+}
+.time {
+  color: var(--col-phlox);
+  font-weight: 900;
+  padding-right: 2ch;
 }
 #stars_light {
   color: var(--col-phlox);
