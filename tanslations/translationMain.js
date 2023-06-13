@@ -126,11 +126,11 @@ export const translations = {
     sk: "Média",
   },
   MEDIA_DESC: {
-    de: "Schau dir einige Aufnahmen von ADHS an, die den Spot jedes Jahr shredden!",
-    en: "Check out some shots from ADHS who shred the place annually!",
-    cs: "Podívejte se na nějaké záběry od ADHS, kteří spot shredí každý rok!",
-    pl: "Zobacz kilka ujęć od ADHS, którzy rokrocznie shredują to miejsce!",
-    sk: "Pozrite si nejaké zábery od ADHS, ktorí spot shredia každý rok!",
+    de: "Check out the vibes:",
+    en: "Check out the vibes:",
+    cs: "Check out the vibes:",
+    pl: "Check out the vibes:",
+    sk: "Check out the vibes:",
   },
 
   MORE_INFO: {
@@ -252,6 +252,27 @@ export const translations = {
     cs: "Sponzoři",
     pl: "Sponsorzy",
     sk: "Sponzori",
+  },
+  THANKS: {
+    de: "Danke an alle fürs Kommen!",
+    en: "Thank you all for coming!",
+    cs: "Děkujeme všem za účast!",
+    pl: "Dziękujemy wszystkim za przybycie!",
+    sk: "Ďakujeme všetkým za účasť!",
+  },
+  THX_1: {
+    de: "Das Event war super dank euch allen!",
+    en: "The event turned out awesome thanks to every single one of you!",
+    cs: "Akce dopadla skvěle díky vám všem!",
+    pl: "Wydarzenie okazało się niesamowite dzięki każdemu z Was!",
+    sk: "Akcia dopadla skvelo vďaka vám všetkým!",
+  },
+  THX_2: {
+    de: "Wir freuen uns schon auf nächstes Jahr!",
+    en: "We are already looking forward to seeing you next year!",
+    cs: "Už se těšíme na příští rok!",
+    pl: "Już nie możemy się doczekać, aby Was zobaczyć w przyszłym roku!",
+    sk: "Už sa tešíme na budúci rok!",
   },
   TITLE_1: {
     de: "Kurz",
