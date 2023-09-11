@@ -44,7 +44,7 @@ a {
   max-width: 60vw;
 }
 
-
 .sticker {
-  width: 60vw;
+  max-width: 60vw;
+  max-height: 30svh;
 }
