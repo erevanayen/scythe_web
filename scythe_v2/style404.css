@@ -1,0 +1,50 @@
+:root {
+  --col-phlox: #ee00ff;
+  --col-canary: #fff300;
+  --col-cornsilk: #fff3cf;
+  --col-cyan: #00f0e1;
+  --col-black: #1d1d1d;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--col-black);
+  font-family: "Roboto", sans-serif;
+  height: 100svh;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pink-text {
+  color: #ee00ff;
+}
+
+.blue-text {
+  color: #00f0e1;
+}
+.corn-text {
+  color: var(--col-cornsilk);
+}
+
+.yellow-text {
+  color: #fff300;
+}
+
+.go-back {
+  color: white;
+}
+
+.four-text {
+  max-width: 60vw;
+}
+
+
+.sticker {
+  width: 60vw;
+}
