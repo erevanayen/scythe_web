@@ -163,6 +163,23 @@ a {
   background-size: 110%;
 }
 
+.shop-coming {
+  width: 100%;
+  max-width: 600px;
+  font-family: "Kode Mono", monospace;
+  color: var(--col-cornsilk);
+  text-align: center;
+}
+
+.shop-coming h2 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.shop-coming p {
+  font-size: 2em;
+}
+
 @media screen and (max-width: 800px) {
   body {
     padding-bottom: 10%;
